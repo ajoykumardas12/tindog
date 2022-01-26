@@ -1,0 +1,206 @@
+
+body {
+    font-family: 'Montserrat', sans-serif;
+    text-align: center;
+}
+
+h1,h2,h3,h4,h5,h6 {
+    font-family: 'Montserrat';
+}
+
+p {
+    color: #8f8f8f;
+}
+
+/* container */
+
+.container-fluid {
+    padding: 7% 15%;
+}
+
+/* section */
+
+.colored-section {
+    background-color: #ff4c68;
+    color: #fff;
+}
+
+.white-section {
+    background-color: #fff;
+}
+
+/* navbar */
+
+.navbar {
+    padding-bottom: 4.5rem;
+}
+
+.navbar-brand {
+    font-family: 'Ubuntu', sans-serif;
+    font-weight: bold;
+    font-size: 2.5rem;
+}
+
+.nav-item {
+    padding: 0 18px;
+}
+
+.nav-link {
+    font-weight: 300;
+}
+
+/* title */
+
+#title {
+    padding-bottom: 90px;
+    text-align: left;
+}
+
+#title .container-fluid {
+    padding: 3% 15% 7%;
+}
+
+#heading1 {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 900;
+    size: 3.5rem;
+    line-height: 1.5;
+}
+
+.download-button {
+    margin: 5% 3% 5% 0;
+}
+
+.iphone-mockup-div {
+    /* min-height: 300px; */
+    position: relative;
+}
+
+.iphone-mockup-img {
+    padding-left: 50px;
+    width: 70%;
+    transform: rotate(25deg);
+    position: absolute;
+}
+
+/* features */
+
+
+#features {
+    position: relative;
+}
+
+.features-heading {
+    font-weight: 900;
+}
+
+.feature-box {
+    padding: 5%;
+}
+
+.icon {
+    color: #ef8172;
+    margin-bottom: 1rem;
+}
+
+.icon:hover {
+    color: #ff4c68;
+}
+
+/* testimonials */
+
+#testimonials {
+    background-color: #ef8172;
+}
+
+.testimonial-text {
+    font-size: 3rem;
+    font-weight: 700;
+    line-height: 1.5;
+}
+
+.testimonials-image {
+    width: 10%;
+    border-radius: 100%;
+    margin: 20px;
+}
+
+
+/* press */
+
+#press {
+    background-color: #ef8172;
+    padding-bottom: 3%;
+}
+
+.press-image {
+    width: 15%;
+    margin: 20px 20px 50px;
+}
+
+
+/* pricing */
+
+#pricing {
+    margin: 100px;
+}
+
+.pricing-column {
+    padding: 3% 2%;
+}
+
+.pricing-headings {
+    font-size: 3rem;
+    font-weight: 700;
+    line-height: 1.5;
+}
+
+.pricing-category {
+    font-weight: 900;
+}
+
+/* Call to Action */
+
+
+.cta-heading {
+    font-family: 'Montserrat';
+    font-weight: 800;
+    font-size: 3rem;
+}
+
+
+/* footer */
+
+#footer {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 600;
+}
+
+.footer-p {
+    padding: 15px;
+}
+
+.social-button {
+    margin: 10px;
+}
+
+/* fab */
+
+.fab {
+    padding: 5px;
+}
+
+
+
+/* media query */
+
+@media (max-width: 1028px) {
+    .iphone-mockup-img {
+        position: static;
+        transform: rotate(0);
+    }
+
+    #title {
+        text-align: center;
+    }
+}
