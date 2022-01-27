@@ -1,2 +1,2 @@
 # tindog
-Tinder clone for dogs
+Tinder clone for dogs homepage.
